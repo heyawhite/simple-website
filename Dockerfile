@@ -2,9 +2,9 @@
 FROM nginx:latest
 
 # Copy Contents of the Application
-COPY index.html /usr/local/apache2/htdocs/
-COPY css/ /usr/local/apache2/htdocs/css/
-COPY images/ /usr/local/apache2/htdocs/images/
+COPY index.html /usr/share/nginx/html
+COPY css/ /usr/share/nginx/html/css/
+COPY images/ /usr/share/nginx/html/images/
 
 # Tell Docker we are going to use this port
 EXPOSE 80

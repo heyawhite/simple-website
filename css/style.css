@@ -9,10 +9,10 @@ header {
   text-align: center;
   padding:1em 0;
 }
-h1 {font-size: 4.4rem; line-height: 2rem;}
-h2 {font-size: 3rem; line-height: 2rem;}
-h3 {font-size: 2.5rem; line-height: 1.5rem;}
-p {font-size: 1.5rem; line-height: 1.3rem;}
+h1 {font-size: 4.4rem; line-height: 2em;}
+h2 {font-size: 3rem; line-height: 2em;}
+h3 {font-size: 2.5rem; line-height: 1.5em;}
+p {font-size: 1.5rem; line-height: 1.3em;}
 a, a:visited {color:#ff3400; text-decoration: none;}
 a:hover, a:active{color:#fff; text-decoration: underline;}
 section {
@@ -26,4 +26,11 @@ footer {
   margin-top: 0 !important;
   text-align: center;
   padding:1em 0;
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {font-size: 2.8rem; line-height: 1.5em;}
+  h2 {font-size: 2.3rem; line-height: 1.5em;}
+  h3 {font-size: 1.8rem; line-height: 1.2em;}
+  p {font-size: 1.2rem; line-height: 1.2em;}
 }
