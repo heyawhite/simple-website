@@ -7,9 +7,9 @@ body {
 header {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  padding:2em 0;
+  padding:1em 0;
 }
-h1 {font-size: 4.5rem; line-height: 2rem;}
+h1 {font-size: 4.4rem; line-height: 2rem;}
 h2 {font-size: 3rem; line-height: 2rem;}
 h3 {font-size: 2.5rem; line-height: 1.5rem;}
 p {font-size: 1.5rem; line-height: 1.3rem;}
@@ -19,7 +19,7 @@ section {
   text-align: center;
   padding:1em 0;
 }
-img {margin:1em auto; max-width: 100%; height: auto;}
+img {margin:1em auto; width:100%; max-width: 500px; height: auto;}
 footer {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
