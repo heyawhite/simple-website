@@ -1,6 +1,6 @@
 # My Cool Website
 
-You can see this website in action here: cool.alexandra.space
+You can see this website in action here: [cool.alexandra.space](http://cool.alexandra.space)
 
 The github repository is here: [github.com/heyawhite/simple-website](https://github.com/heyawhite/simple-website)
 
