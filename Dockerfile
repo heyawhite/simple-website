@@ -1,5 +1,5 @@
 #FROM is the base image for which we will run our application
-FROM httpd:latest
+FROM nginx:latest
 
 # Copy Contents of the Application
 COPY index.html /usr/local/apache2/htdocs/
